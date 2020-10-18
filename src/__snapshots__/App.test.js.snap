@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px grey solid",
+      "margin": 5,
+      "width": 800,
+    }
+  }
+>
+  <header>
+    <h2>
+      Flight Search Engine
+    </h2>
+  </header>
+  <div
+    style={
+      Object {
+        "borderTop": "1px grey solid",
+        "display": "flex",
+        "minHeight": 500,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "borderRight": "1px grey solid",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "margin": 5,
+            "textAlign": "start",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "borderLeft": "1px grey solid",
+              "borderRight": "1px grey solid",
+              "borderTop": "1px grey solid",
+              "fontSize": 13,
+              "fontWeight": 600,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            }
+          }
+        >
+          One Way
+        </span>
+        <div
+          style={
+            Object {
+              "alignContent": "flex-start",
+              "border": "1px grey solid",
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "margin": 5,
+              }
+            }
+          >
+            <input
+              aria-autocomplete="list"
+              aria-expanded={false}
+              autoComplete="off"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Enter Origin City"
+              role="combobox"
+              value=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "margin": 5,
+              }
+            }
+          >
+            <input
+              aria-autocomplete="list"
+              aria-expanded={false}
+              autoComplete="off"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Enter Destination City"
+              role="combobox"
+              value=""
+            />
+          </div>
+          <input
+            placeholder="Departure Date"
+            style={
+              Object {
+                "margin": 5,
+              }
+            }
+            type="date"
+          />
+          <select
+            style={
+              Object {
+                "margin": 5,
+              }
+            }
+          >
+            <option
+              value="Passengers"
+            >
+              Passengers
+            </option>
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+            <option
+              value={3}
+            >
+              3
+            </option>
+            <option
+              value={4}
+            >
+              4
+            </option>
+            <option
+              value={5}
+            >
+              5
+            </option>
+          </select>
+          <button
+            onClick={[Function]}
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "margin": 5,
+              }
+            }
+          >
+            Search
+          </button>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "border": "1px grey solid",
+            "marginLeft": 5,
+            "marginRight": 5,
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "fontSize": 13,
+              "fontWeight": 600,
+              "paddingLeft": 5,
+            }
+          }
+        >
+          Refine Flight Search
+        </span>
+        <div
+          aria-orientation="horizontal"
+          aria-valuemax={20000}
+          aria-valuemin={0}
+          aria-valuenow={0}
+          className="rangeslider rangeslider-horizontal"
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+        >
+          <div
+            className="rangeslider__fill"
+            style={
+              Object {
+                "width": "0px",
+              }
+            }
+          />
+          <div
+            className="rangeslider__handle"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            style={
+              Object {
+                "left": "0px",
+              }
+            }
+            tabIndex={0}
+          >
+            <div
+              className="rangeslider__handle-label"
+            >
+              
+            </div>
+          </div>
+          <ul
+            className="rangeslider__labels"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <h1
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        No Flight Searched
+      </h1>
+    </div>
+  </div>
+</div>
+`;
